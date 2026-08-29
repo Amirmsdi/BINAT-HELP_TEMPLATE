@@ -4,39 +4,52 @@ import { Logo } from "./components/logo";
 
 const config: DocsThemeConfig = {
   logo: <Logo />,
+
   project: {
-    link: "https://github.com/paziresh24",
+  link: "https://github.com/Amirmsdi/BINAT-HELP_TEMPLATE",
   },
-  docsRepositoryBase: "https://github.com/paziresh24/documation",
+
+  docsRepositoryBase: "https://github.com/Amirmsdi/BINAT-HELP_TEMPLATE",
+  
   footer: {
     component: <></>,
   },
+
   direction: "rtl",
+
   editLink: {
     text: "ویرایش صفحه",
   },
+
   sidebar: {
     toggleButton: true,
     defaultMenuCollapseLevel: 1,
   },
+
   feedback: {
     content: "سوال دارید؟ به ما بازخورد بدهید.",
   },
+
   search: {
     placeholder: "جستجو کنید...",
   },
+
   toc: {
     title: "فهرست",
   },
+
   darkMode: false,
+
   nextThemes: {
     defaultTheme: "light",
   },
+
   useNextSeoProps() {
     return {
-      titleTemplate: "%s | پذیرش24",
+      titleTemplate: "%s | Help",
     };
   },
+
   themeSwitch: {
     useOptions: {
       dark: "تاریک",

@@ -1,35 +1,16 @@
 {
   "index": {
     "display": "hidden",
-    "title": "صفحه اصلی",
     "theme": {
       "breadcrumb": false,
       "footer": true,
-      "sidebar": false,
-      "toc": false,
-      "pagination": false
+      "sidebar": true,
+      "toc": true,
+      "pagination": true
     }
   },
-
-  "rest": {
-    "type": "page",
-    "title": "REST API",
-    "display": "hidden"
-  },
-  "apis": {
-    "type": "page",
-    "title": "سرویس ها"
-  },
-  "authorization": {
-    "type": "page",
-    "title": "احراز هویت"
-  },
-  "apps": {
-    "type": "page",
-    "title": "ابزارک ها"
-  },
-  "design": {
-    "type": "page",
-    "title": "دیزاین"
+  "guide": {
+    "type":"page",
+    "title":"راهنمای استفاده"
   }
 }

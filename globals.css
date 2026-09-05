@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.darklight-reference {
+  display: none !important;
+}
+
+em {
+  @apply text-base opacity-50 not-italic font-normal;
+}
+
+.nx-text-3xl {
+  @apply !text-2xl;
+}
+
+.nx-text-4xl {
+  @apply !text-3xl;
+}
+
+div.nextra-cards.nx-mt-4.nx-gap-4.nx-grid.nx-not-prose > a > span {
+  justify-content: end;
+  color: #3861fb;
+}
+
+div.nextra-cards.nx-mt-4.nx-gap-4.nx-grid.nx-not-prose
+  > a
+  > span
+  > span
+  > span {
+  @apply rotate-180;
+}
+
+.nx-underline {
+  @apply !underline-offset-2;
+}
+
+.nextra-steps {
+  padding-left: 0rem !important;
+  padding-right: 1.5rem !important;
+  border-left-width: 0 !important;
+  border-right-width: 1px !important;
+  margin-left: 0 !important;
+  margin-right: 1rem !important;
+}
+
+.nextra-steps h3:before {
+  margin-left: 0 !important;
+  margin-right: -41px !important;
+}
+
+.nextra-steps h3 {
+  display: flex;
+}
+
+.nx-block th:nth-child(2) {
+  width: 100%;
+}
+
+.nx-block td:nth-child(1) {
+  direction: ltr;
+  text-align: left;
+}
+
+.nextra-card {
+  justify-content: space-between !important;
+}

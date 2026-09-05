@@ -1,0 +1,16 @@
+{
+  "index": {
+    "display": "hidden",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": true
+    }
+  },
+  "guide": {
+    "type":"page",
+    "title":"راهنمای استفاده"
+  }
+}

@@ -6,7 +6,7 @@ const CustomDocument: NextComponentType = () => {
   return (
     <Html lang="fa-IR" dir="rtl" className="scroll-smooth">
       <Head>
-        <link rel="icon" type="image/x-icon" href="/logos/favicon.ico" />
+        <link rel="icon" type="image/jpeg" href="/logo.jpg" />
         <meta name="theme-color" content="#FFFFFF" />
         <meta name="msapplication-TileColor" content="#FFFFFF" />
         <meta name="mobile-web-app-capable" content="yes" />

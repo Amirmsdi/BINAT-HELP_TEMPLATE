@@ -16,7 +16,7 @@ module.exports = {
         primary: "#3861fb",
       },
       fontFamily: {
-        sans: ["var(--yekan-bakh-font)", ...fontFamily.sans],
+        sans: ["var(--help-font)", ...fontFamily.sans],
       },
     },
   },
